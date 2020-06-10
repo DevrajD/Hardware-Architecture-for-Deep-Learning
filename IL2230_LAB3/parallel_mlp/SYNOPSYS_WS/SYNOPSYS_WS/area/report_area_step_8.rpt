@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : parallel_mlp
+Version: J-2014.09
+Date   : Sat Dec 21 17:10:31 2019
+****************************************
+
+Library(s) Used:
+
+    tcbn90gtc (File: /afs/ict.kth.se/pkg/synopsys/extra_libraries/standard_cell/TSMC/tcbn90g_110a/Front_End/timing_power/tcbn90g_110a/tcbn90gtc.db)
+
+Number of ports:                           59
+Number of nets:                           326
+Number of cells:                          289
+Number of combinational cells:             16
+Number of sequential cells:               264
+Number of macros/black boxes:               0
+Number of buf/inv:                         15
+Number of references:                      15
+
+Combinational area:              42311.808257
+Buf/Inv area:                      756.403201
+Noncombinational area:            5070.643066
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 47382.451323
+Total area:                 undefined
+1

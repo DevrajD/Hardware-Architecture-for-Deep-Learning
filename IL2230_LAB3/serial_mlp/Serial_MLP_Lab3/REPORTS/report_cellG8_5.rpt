@@ -1,0 +1,2416 @@
+ 
+****************************************
+Report : cell
+Design : serial_mlp1
+Version: J-2014.09
+Date   : Mon Dec 23 15:59:14 2019
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    p - parameterized
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+Layer_control_reg[0]      DFQD1           tcbn90gtc       13.708800 n
+Layer_control_reg[1]      DFQD1           tcbn90gtc       13.708800 n
+Mem_Bank_Control_reg      DFQD1           tcbn90gtc       13.708800 n
+NEURON                    parallel_neuron_5_8             6964.070450
+                                                                    h, p
+U12                       AO222D1         tcbn90gtc       8.064000  
+U13                       AO222D1         tcbn90gtc       8.064000  
+U14                       AO222D1         tcbn90gtc       8.064000  
+U15                       AO222D1         tcbn90gtc       8.064000  
+U16                       AO222D1         tcbn90gtc       8.064000  
+U17                       AO222D1         tcbn90gtc       8.064000  
+U18                       AO222D1         tcbn90gtc       8.064000  
+U19                       AO222D1         tcbn90gtc       8.064000  
+U20                       AO222D1         tcbn90gtc       8.064000  
+U21                       AO222D1         tcbn90gtc       8.064000  
+U22                       AO222D1         tcbn90gtc       8.064000  
+U23                       AO222D1         tcbn90gtc       8.064000  
+U24                       AO222D1         tcbn90gtc       8.064000  
+U25                       AO222D1         tcbn90gtc       8.064000  
+U26                       AO222D1         tcbn90gtc       8.064000  
+U27                       AO222D1         tcbn90gtc       8.064000  
+U28                       AO222D1         tcbn90gtc       8.064000  
+U29                       AO222D1         tcbn90gtc       8.064000  
+U30                       AO222D1         tcbn90gtc       8.064000  
+U31                       AO222D1         tcbn90gtc       8.064000  
+U32                       AO222D1         tcbn90gtc       8.064000  
+U33                       AO222D1         tcbn90gtc       8.064000  
+U34                       AO222D1         tcbn90gtc       8.064000  
+U35                       AO222D1         tcbn90gtc       8.064000  
+U36                       AO222D1         tcbn90gtc       8.064000  
+U37                       AO222D1         tcbn90gtc       8.064000  
+U38                       AO222D1         tcbn90gtc       8.064000  
+U39                       AO222D1         tcbn90gtc       8.064000  
+U40                       AO222D1         tcbn90gtc       8.064000  
+U41                       AO222D1         tcbn90gtc       8.064000  
+U42                       AO222D1         tcbn90gtc       8.064000  
+U43                       AO222D1         tcbn90gtc       8.064000  
+U44                       AO222D1         tcbn90gtc       8.064000  
+U45                       AO222D1         tcbn90gtc       8.064000  
+U46                       AO222D1         tcbn90gtc       8.064000  
+U47                       AO222D1         tcbn90gtc       8.064000  
+U48                       AO222D1         tcbn90gtc       8.064000  
+U49                       AO222D1         tcbn90gtc       8.064000  
+U50                       AO222D1         tcbn90gtc       8.064000  
+U51                       AO222D1         tcbn90gtc       8.064000  
+U54                       OR2D1           tcbn90gtc       4.032000  
+U631                      AO21D1          tcbn90gtc       4.838400  
+U829                      AN2D0           tcbn90gtc       3.225600  
+U830                      AN2D0           tcbn90gtc       3.225600  
+U831                      OAI21D0         tcbn90gtc       3.225600  
+U832                      AN2D0           tcbn90gtc       3.225600  
+U833                      AN2D0           tcbn90gtc       3.225600  
+U834                      AN2D0           tcbn90gtc       3.225600  
+U835                      AN2D0           tcbn90gtc       3.225600  
+U836                      AN2D0           tcbn90gtc       3.225600  
+U837                      AN2D0           tcbn90gtc       3.225600  
+U838                      ND2D1           tcbn90gtc       2.419200  
+U839                      ND2D1           tcbn90gtc       2.419200  
+U840                      ND2D1           tcbn90gtc       2.419200  
+U841                      ND2D1           tcbn90gtc       2.419200  
+U842                      ND2D1           tcbn90gtc       2.419200  
+U843                      ND2D1           tcbn90gtc       2.419200  
+U844                      ND2D1           tcbn90gtc       2.419200  
+U845                      ND2D1           tcbn90gtc       2.419200  
+U846                      ND2D1           tcbn90gtc       2.419200  
+U847                      ND2D1           tcbn90gtc       2.419200  
+U848                      ND2D1           tcbn90gtc       2.419200  
+U849                      ND2D1           tcbn90gtc       2.419200  
+U850                      ND2D1           tcbn90gtc       2.419200  
+U851                      ND2D1           tcbn90gtc       2.419200  
+U852                      ND2D1           tcbn90gtc       2.419200  
+U853                      ND2D1           tcbn90gtc       2.419200  
+U854                      ND2D1           tcbn90gtc       2.419200  
+U855                      ND2D1           tcbn90gtc       2.419200  
+U856                      BUFFD0          tcbn90gtc       2.419200  
+U857                      BUFFD0          tcbn90gtc       2.419200  
+U858                      BUFFD0          tcbn90gtc       2.419200  
+U859                      BUFFD0          tcbn90gtc       2.419200  
+U860                      BUFFD0          tcbn90gtc       2.419200  
+U861                      BUFFD0          tcbn90gtc       2.419200  
+U862                      BUFFD0          tcbn90gtc       2.419200  
+U863                      BUFFD0          tcbn90gtc       2.419200  
+U864                      AOI21D0         tcbn90gtc       3.225600  
+U865                      AOI21D0         tcbn90gtc       3.225600  
+U866                      BUFFD0          tcbn90gtc       2.419200  
+U867                      INVD1           tcbn90gtc       1.612800  
+U868                      INVD1           tcbn90gtc       1.612800  
+U869                      INVD1           tcbn90gtc       1.612800  
+U870                      INVD1           tcbn90gtc       1.612800  
+U871                      INVD1           tcbn90gtc       1.612800  
+U872                      INVD1           tcbn90gtc       1.612800  
+U873                      INVD1           tcbn90gtc       1.612800  
+U874                      INVD1           tcbn90gtc       1.612800  
+U875                      BUFFD1          tcbn90gtc       3.225600  
+U876                      BUFFD1          tcbn90gtc       3.225600  
+U877                      INVD1           tcbn90gtc       1.612800  
+U878                      INVD1           tcbn90gtc       1.612800  
+U879                      INVD1           tcbn90gtc       1.612800  
+U880                      INVD1           tcbn90gtc       1.612800  
+U881                      INVD1           tcbn90gtc       1.612800  
+U882                      INVD1           tcbn90gtc       1.612800  
+U883                      INVD1           tcbn90gtc       1.612800  
+U884                      INVD1           tcbn90gtc       1.612800  
+U885                      INVD1           tcbn90gtc       1.612800  
+U886                      INVD1           tcbn90gtc       1.612800  
+U887                      INVD1           tcbn90gtc       1.612800  
+U888                      INVD1           tcbn90gtc       1.612800  
+U889                      INVD1           tcbn90gtc       1.612800  
+U890                      INVD1           tcbn90gtc       1.612800  
+U891                      INVD1           tcbn90gtc       1.612800  
+U892                      INVD1           tcbn90gtc       1.612800  
+U893                      INVD1           tcbn90gtc       1.612800  
+U894                      BUFFD0          tcbn90gtc       2.419200  
+U895                      BUFFD0          tcbn90gtc       2.419200  
+U896                      BUFFD0          tcbn90gtc       2.419200  
+U897                      BUFFD0          tcbn90gtc       2.419200  
+U898                      INVD1           tcbn90gtc       1.612800  
+U899                      INVD1           tcbn90gtc       1.612800  
+U900                      INVD1           tcbn90gtc       1.612800  
+U901                      INVD1           tcbn90gtc       1.612800  
+U902                      INVD1           tcbn90gtc       1.612800  
+U903                      INVD1           tcbn90gtc       1.612800  
+U904                      INVD1           tcbn90gtc       1.612800  
+U905                      INVD1           tcbn90gtc       1.612800  
+U906                      INVD1           tcbn90gtc       1.612800  
+U907                      INVD1           tcbn90gtc       1.612800  
+U908                      INVD1           tcbn90gtc       1.612800  
+U909                      INVD1           tcbn90gtc       1.612800  
+U910                      INVD1           tcbn90gtc       1.612800  
+U911                      INVD1           tcbn90gtc       1.612800  
+U912                      INVD1           tcbn90gtc       1.612800  
+U913                      INVD1           tcbn90gtc       1.612800  
+U914                      INVD1           tcbn90gtc       1.612800  
+U915                      INVD1           tcbn90gtc       1.612800  
+U916                      INVD1           tcbn90gtc       1.612800  
+U917                      INVD1           tcbn90gtc       1.612800  
+U918                      INVD1           tcbn90gtc       1.612800  
+U919                      INVD1           tcbn90gtc       1.612800  
+U920                      INVD1           tcbn90gtc       1.612800  
+U921                      INVD1           tcbn90gtc       1.612800  
+U922                      INVD1           tcbn90gtc       1.612800  
+U923                      INVD1           tcbn90gtc       1.612800  
+U924                      ND2D1           tcbn90gtc       2.419200  
+U925                      INVD1           tcbn90gtc       1.612800  
+U926                      INVD1           tcbn90gtc       1.612800  
+U927                      INVD1           tcbn90gtc       1.612800  
+U928                      AN2D0           tcbn90gtc       3.225600  
+U929                      BUFFD1          tcbn90gtc       3.225600  
+U930                      BUFFD1          tcbn90gtc       3.225600  
+U931                      BUFFD0          tcbn90gtc       2.419200  
+U932                      AOI21D0         tcbn90gtc       3.225600  
+U933                      BUFFD1          tcbn90gtc       3.225600  
+U934                      INVD1           tcbn90gtc       1.612800  
+U935                      INVD1           tcbn90gtc       1.612800  
+U936                      BUFFD0          tcbn90gtc       2.419200  
+U937                      BUFFD1          tcbn90gtc       3.225600  
+U938                      BUFFD1          tcbn90gtc       3.225600  
+U939                      INVD1           tcbn90gtc       1.612800  
+U940                      INVD1           tcbn90gtc       1.612800  
+U941                      INVD1           tcbn90gtc       1.612800  
+U942                      INVD1           tcbn90gtc       1.612800  
+U943                      BUFFD0          tcbn90gtc       2.419200  
+U944                      INVD1           tcbn90gtc       1.612800  
+U945                      INVD1           tcbn90gtc       1.612800  
+U946                      INVD1           tcbn90gtc       1.612800  
+U947                      INVD1           tcbn90gtc       1.612800  
+U948                      INVD1           tcbn90gtc       1.612800  
+U949                      INVD1           tcbn90gtc       1.612800  
+U950                      INVD1           tcbn90gtc       1.612800  
+U951                      INVD1           tcbn90gtc       1.612800  
+U952                      INVD1           tcbn90gtc       1.612800  
+U953                      INVD1           tcbn90gtc       1.612800  
+U954                      INVD1           tcbn90gtc       1.612800  
+U955                      INVD1           tcbn90gtc       1.612800  
+U956                      INVD1           tcbn90gtc       1.612800  
+U957                      INVD1           tcbn90gtc       1.612800  
+U958                      INVD1           tcbn90gtc       1.612800  
+U959                      INVD1           tcbn90gtc       1.612800  
+U960                      INVD1           tcbn90gtc       1.612800  
+U961                      ND2D1           tcbn90gtc       2.419200  
+U962                      ND2D1           tcbn90gtc       2.419200  
+U963                      ND2D1           tcbn90gtc       2.419200  
+U964                      NR2D1           tcbn90gtc       2.419200  
+U965                      ND2D1           tcbn90gtc       2.419200  
+U966                      NR2D1           tcbn90gtc       2.419200  
+U967                      AN2D0           tcbn90gtc       3.225600  
+U968                      INVD1           tcbn90gtc       1.612800  
+U969                      AN2D0           tcbn90gtc       3.225600  
+U970                      BUFFD0          tcbn90gtc       2.419200  
+U971                      ND2D1           tcbn90gtc       2.419200  
+U972                      ND2D1           tcbn90gtc       2.419200  
+U973                      AN2D0           tcbn90gtc       3.225600  
+U974                      AN2D0           tcbn90gtc       3.225600  
+U975                      AN2D0           tcbn90gtc       3.225600  
+U976                      AN2D0           tcbn90gtc       3.225600  
+U977                      INVD1           tcbn90gtc       1.612800  
+U978                      NR2D1           tcbn90gtc       2.419200  
+U979                      OAI22D0         tcbn90gtc       4.032000  
+U980                      AOI21D0         tcbn90gtc       3.225600  
+U981                      OAI22D0         tcbn90gtc       4.032000  
+U982                      OAI22D0         tcbn90gtc       4.032000  
+U983                      OAI22D0         tcbn90gtc       4.032000  
+U984                      OAI22D0         tcbn90gtc       4.032000  
+U985                      OAI22D0         tcbn90gtc       4.032000  
+U986                      OAI22D0         tcbn90gtc       4.032000  
+U987                      OAI22D0         tcbn90gtc       4.032000  
+U988                      OAI22D0         tcbn90gtc       4.032000  
+U989                      OAI22D0         tcbn90gtc       4.032000  
+U990                      OAI22D0         tcbn90gtc       4.032000  
+U991                      OAI22D0         tcbn90gtc       4.032000  
+U992                      OAI22D0         tcbn90gtc       4.032000  
+U993                      OAI22D0         tcbn90gtc       4.032000  
+U994                      OAI22D0         tcbn90gtc       4.032000  
+U995                      OAI22D0         tcbn90gtc       4.032000  
+U996                      OAI22D0         tcbn90gtc       4.032000  
+U997                      OAI22D0         tcbn90gtc       4.032000  
+U998                      OAI22D0         tcbn90gtc       4.032000  
+U999                      OAI22D0         tcbn90gtc       4.032000  
+U1000                     OAI22D0         tcbn90gtc       4.032000  
+U1001                     OAI22D0         tcbn90gtc       4.032000  
+U1002                     OAI22D0         tcbn90gtc       4.032000  
+U1003                     OAI22D0         tcbn90gtc       4.032000  
+U1004                     OAI22D0         tcbn90gtc       4.032000  
+U1005                     OAI22D0         tcbn90gtc       4.032000  
+U1006                     OAI22D0         tcbn90gtc       4.032000  
+U1007                     OAI22D0         tcbn90gtc       4.032000  
+U1008                     OAI22D0         tcbn90gtc       4.032000  
+U1009                     OAI22D0         tcbn90gtc       4.032000  
+U1010                     OAI22D0         tcbn90gtc       4.032000  
+U1011                     OAI22D0         tcbn90gtc       4.032000  
+U1012                     OAI22D0         tcbn90gtc       4.032000  
+U1013                     OAI22D0         tcbn90gtc       4.032000  
+U1014                     OAI22D0         tcbn90gtc       4.032000  
+U1015                     OAI22D0         tcbn90gtc       4.032000  
+U1016                     OAI22D0         tcbn90gtc       4.032000  
+U1017                     OAI22D0         tcbn90gtc       4.032000  
+U1018                     OAI22D0         tcbn90gtc       4.032000  
+U1019                     OAI22D0         tcbn90gtc       4.032000  
+U1020                     OAI22D0         tcbn90gtc       4.032000  
+U1021                     OAI22D0         tcbn90gtc       4.032000  
+U1022                     OAI22D0         tcbn90gtc       4.032000  
+U1023                     OAI22D0         tcbn90gtc       4.032000  
+U1024                     OAI22D0         tcbn90gtc       4.032000  
+U1025                     OAI22D0         tcbn90gtc       4.032000  
+U1026                     OAI22D0         tcbn90gtc       4.032000  
+U1027                     OAI22D0         tcbn90gtc       4.032000  
+U1028                     OAI22D0         tcbn90gtc       4.032000  
+U1029                     OAI22D0         tcbn90gtc       4.032000  
+U1030                     OAI22D0         tcbn90gtc       4.032000  
+U1031                     OAI22D0         tcbn90gtc       4.032000  
+U1032                     OAI22D0         tcbn90gtc       4.032000  
+U1033                     OAI22D0         tcbn90gtc       4.032000  
+U1034                     OAI22D0         tcbn90gtc       4.032000  
+U1035                     OAI22D0         tcbn90gtc       4.032000  
+U1036                     OAI22D0         tcbn90gtc       4.032000  
+U1037                     OAI22D0         tcbn90gtc       4.032000  
+U1038                     OAI22D0         tcbn90gtc       4.032000  
+U1039                     OAI22D0         tcbn90gtc       4.032000  
+U1040                     OAI22D0         tcbn90gtc       4.032000  
+U1041                     OAI22D0         tcbn90gtc       4.032000  
+U1042                     OAI22D0         tcbn90gtc       4.032000  
+U1043                     OAI22D0         tcbn90gtc       4.032000  
+U1044                     OAI22D0         tcbn90gtc       4.032000  
+U1045                     OAI22D0         tcbn90gtc       4.032000  
+U1046                     OAI22D0         tcbn90gtc       4.032000  
+U1047                     OAI22D0         tcbn90gtc       4.032000  
+U1048                     OAI22D0         tcbn90gtc       4.032000  
+U1049                     OAI22D0         tcbn90gtc       4.032000  
+U1050                     OAI22D0         tcbn90gtc       4.032000  
+U1051                     OAI22D0         tcbn90gtc       4.032000  
+U1052                     OAI22D0         tcbn90gtc       4.032000  
+U1053                     OAI22D0         tcbn90gtc       4.032000  
+U1054                     OAI22D0         tcbn90gtc       4.032000  
+U1055                     OAI22D0         tcbn90gtc       4.032000  
+U1056                     OAI22D0         tcbn90gtc       4.032000  
+U1057                     OAI22D0         tcbn90gtc       4.032000  
+U1058                     OAI22D0         tcbn90gtc       4.032000  
+U1059                     OAI22D0         tcbn90gtc       4.032000  
+U1060                     OAI22D0         tcbn90gtc       4.032000  
+U1061                     ND2D1           tcbn90gtc       2.419200  
+U1062                     INVD1           tcbn90gtc       1.612800  
+U1063                     INVD1           tcbn90gtc       1.612800  
+U1064                     NR2D1           tcbn90gtc       2.419200  
+U1065                     BUFFD0          tcbn90gtc       2.419200  
+U1066                     OAI31D1         tcbn90gtc       4.838400  
+U1067                     INVD1           tcbn90gtc       1.612800  
+U1068                     NR2D1           tcbn90gtc       2.419200  
+U1069                     NR2D1           tcbn90gtc       2.419200  
+U1070                     NR2D1           tcbn90gtc       2.419200  
+U1071                     NR2D1           tcbn90gtc       2.419200  
+U1072                     BUFFD0          tcbn90gtc       2.419200  
+U1073                     INVD1           tcbn90gtc       1.612800  
+U1074                     AN2D0           tcbn90gtc       3.225600  
+U1075                     AN2D0           tcbn90gtc       3.225600  
+U1076                     OAI222D0        tcbn90gtc       6.451200  
+U1077                     INVD1           tcbn90gtc       1.612800  
+U1078                     OAI222D0        tcbn90gtc       6.451200  
+U1079                     INVD1           tcbn90gtc       1.612800  
+U1080                     OAI222D0        tcbn90gtc       6.451200  
+U1081                     INVD1           tcbn90gtc       1.612800  
+U1082                     OAI222D0        tcbn90gtc       6.451200  
+U1083                     INVD1           tcbn90gtc       1.612800  
+U1084                     OAI222D0        tcbn90gtc       6.451200  
+U1085                     INVD1           tcbn90gtc       1.612800  
+U1086                     NR2D1           tcbn90gtc       2.419200  
+U1087                     OAI31D1         tcbn90gtc       4.838400  
+U1088                     OAI222D0        tcbn90gtc       6.451200  
+U1089                     INVD1           tcbn90gtc       1.612800  
+U1090                     OAI222D0        tcbn90gtc       6.451200  
+U1091                     INVD1           tcbn90gtc       1.612800  
+U1092                     OAI222D0        tcbn90gtc       6.451200  
+U1093                     INVD1           tcbn90gtc       1.612800  
+U1094                     OAI222D0        tcbn90gtc       6.451200  
+U1095                     INVD1           tcbn90gtc       1.612800  
+U1096                     OAI222D0        tcbn90gtc       6.451200  
+U1097                     INVD1           tcbn90gtc       1.612800  
+U1098                     OAI222D0        tcbn90gtc       6.451200  
+U1099                     INVD1           tcbn90gtc       1.612800  
+U1100                     OAI222D0        tcbn90gtc       6.451200  
+U1101                     INVD1           tcbn90gtc       1.612800  
+U1102                     OAI222D0        tcbn90gtc       6.451200  
+U1103                     INVD1           tcbn90gtc       1.612800  
+U1104                     OAI222D0        tcbn90gtc       6.451200  
+U1105                     INVD1           tcbn90gtc       1.612800  
+U1106                     OAI222D0        tcbn90gtc       6.451200  
+U1107                     INVD1           tcbn90gtc       1.612800  
+U1108                     OAI222D0        tcbn90gtc       6.451200  
+U1109                     INVD1           tcbn90gtc       1.612800  
+U1110                     OAI222D0        tcbn90gtc       6.451200  
+U1111                     INVD1           tcbn90gtc       1.612800  
+U1112                     OAI222D0        tcbn90gtc       6.451200  
+U1113                     INVD1           tcbn90gtc       1.612800  
+U1114                     OAI222D0        tcbn90gtc       6.451200  
+U1115                     INVD1           tcbn90gtc       1.612800  
+U1116                     OAI222D0        tcbn90gtc       6.451200  
+U1117                     INVD1           tcbn90gtc       1.612800  
+U1118                     OAI222D0        tcbn90gtc       6.451200  
+U1119                     INVD1           tcbn90gtc       1.612800  
+U1120                     OAI222D0        tcbn90gtc       6.451200  
+U1121                     INVD1           tcbn90gtc       1.612800  
+U1122                     OAI222D0        tcbn90gtc       6.451200  
+U1123                     INVD1           tcbn90gtc       1.612800  
+U1124                     AOI22D0         tcbn90gtc       4.032000  
+U1125                     ND2D1           tcbn90gtc       2.419200  
+U1126                     OAI22D0         tcbn90gtc       4.032000  
+U1127                     INVD1           tcbn90gtc       1.612800  
+U1128                     OAI22D0         tcbn90gtc       4.032000  
+U1129                     INVD1           tcbn90gtc       1.612800  
+U1130                     ND2D1           tcbn90gtc       2.419200  
+U1131                     NR2D1           tcbn90gtc       2.419200  
+U1132                     INVD1           tcbn90gtc       1.612800  
+U1133                     AO22D0          tcbn90gtc       5.644800  
+U1134                     ND4D1           tcbn90gtc       4.838400  
+U1135                     AOI222D0        tcbn90gtc       6.451200  
+U1136                     AOI221D0        tcbn90gtc       5.644800  
+U1137                     AO22D0          tcbn90gtc       5.644800  
+U1138                     ND4D1           tcbn90gtc       4.838400  
+U1139                     AOI222D0        tcbn90gtc       6.451200  
+U1140                     AOI221D0        tcbn90gtc       5.644800  
+U1141                     AO22D0          tcbn90gtc       5.644800  
+U1142                     ND4D1           tcbn90gtc       4.838400  
+U1143                     AOI222D0        tcbn90gtc       6.451200  
+U1144                     AOI221D0        tcbn90gtc       5.644800  
+U1145                     AO22D0          tcbn90gtc       5.644800  
+U1146                     ND4D1           tcbn90gtc       4.838400  
+U1147                     AOI222D0        tcbn90gtc       6.451200  
+U1148                     AOI221D0        tcbn90gtc       5.644800  
+U1149                     AO22D0          tcbn90gtc       5.644800  
+U1150                     ND4D1           tcbn90gtc       4.838400  
+U1151                     AOI222D0        tcbn90gtc       6.451200  
+U1152                     AOI221D0        tcbn90gtc       5.644800  
+U1153                     AO22D0          tcbn90gtc       5.644800  
+U1154                     ND4D1           tcbn90gtc       4.838400  
+U1155                     AOI222D0        tcbn90gtc       6.451200  
+U1156                     AOI221D0        tcbn90gtc       5.644800  
+U1157                     AO22D0          tcbn90gtc       5.644800  
+U1158                     ND4D1           tcbn90gtc       4.838400  
+U1159                     AOI222D0        tcbn90gtc       6.451200  
+U1160                     AOI221D0        tcbn90gtc       5.644800  
+U1161                     AO22D0          tcbn90gtc       5.644800  
+U1162                     ND4D1           tcbn90gtc       4.838400  
+U1163                     AOI222D0        tcbn90gtc       6.451200  
+U1164                     AOI221D0        tcbn90gtc       5.644800  
+U1165                     AO22D0          tcbn90gtc       5.644800  
+U1166                     ND4D1           tcbn90gtc       4.838400  
+U1167                     AOI222D0        tcbn90gtc       6.451200  
+U1168                     AOI221D0        tcbn90gtc       5.644800  
+U1169                     AO22D0          tcbn90gtc       5.644800  
+U1170                     ND4D1           tcbn90gtc       4.838400  
+U1171                     AOI222D0        tcbn90gtc       6.451200  
+U1172                     AOI221D0        tcbn90gtc       5.644800  
+U1173                     AO22D0          tcbn90gtc       5.644800  
+U1174                     ND4D1           tcbn90gtc       4.838400  
+U1175                     AOI222D0        tcbn90gtc       6.451200  
+U1176                     AOI221D0        tcbn90gtc       5.644800  
+U1177                     AO22D0          tcbn90gtc       5.644800  
+U1178                     ND4D1           tcbn90gtc       4.838400  
+U1179                     AOI222D0        tcbn90gtc       6.451200  
+U1180                     AOI221D0        tcbn90gtc       5.644800  
+U1181                     AO22D0          tcbn90gtc       5.644800  
+U1182                     ND4D1           tcbn90gtc       4.838400  
+U1183                     AOI222D0        tcbn90gtc       6.451200  
+U1184                     AOI221D0        tcbn90gtc       5.644800  
+U1185                     AO22D0          tcbn90gtc       5.644800  
+U1186                     ND4D1           tcbn90gtc       4.838400  
+U1187                     AOI222D0        tcbn90gtc       6.451200  
+U1188                     AOI221D0        tcbn90gtc       5.644800  
+U1189                     AO22D0          tcbn90gtc       5.644800  
+U1190                     ND4D1           tcbn90gtc       4.838400  
+U1191                     AOI222D0        tcbn90gtc       6.451200  
+U1192                     AOI221D0        tcbn90gtc       5.644800  
+U1193                     AO22D0          tcbn90gtc       5.644800  
+U1194                     ND4D1           tcbn90gtc       4.838400  
+U1195                     AOI222D0        tcbn90gtc       6.451200  
+U1196                     AOI221D0        tcbn90gtc       5.644800  
+U1197                     AO22D0          tcbn90gtc       5.644800  
+U1198                     ND4D1           tcbn90gtc       4.838400  
+U1199                     AOI222D0        tcbn90gtc       6.451200  
+U1200                     AOI221D0        tcbn90gtc       5.644800  
+U1201                     AO22D0          tcbn90gtc       5.644800  
+U1202                     ND4D1           tcbn90gtc       4.838400  
+U1203                     AOI222D0        tcbn90gtc       6.451200  
+U1204                     AOI221D0        tcbn90gtc       5.644800  
+U1205                     AO22D0          tcbn90gtc       5.644800  
+U1206                     ND4D1           tcbn90gtc       4.838400  
+U1207                     AOI222D0        tcbn90gtc       6.451200  
+U1208                     AOI221D0        tcbn90gtc       5.644800  
+U1209                     AO22D0          tcbn90gtc       5.644800  
+U1210                     ND4D1           tcbn90gtc       4.838400  
+U1211                     AOI222D0        tcbn90gtc       6.451200  
+U1212                     AOI221D0        tcbn90gtc       5.644800  
+U1213                     AO22D0          tcbn90gtc       5.644800  
+U1214                     ND4D1           tcbn90gtc       4.838400  
+U1215                     AOI222D0        tcbn90gtc       6.451200  
+U1216                     AOI221D0        tcbn90gtc       5.644800  
+U1217                     AO22D0          tcbn90gtc       5.644800  
+U1218                     ND4D1           tcbn90gtc       4.838400  
+U1219                     AOI222D0        tcbn90gtc       6.451200  
+U1220                     AOI221D0        tcbn90gtc       5.644800  
+U1221                     AO22D0          tcbn90gtc       5.644800  
+U1222                     ND4D1           tcbn90gtc       4.838400  
+U1223                     AOI222D0        tcbn90gtc       6.451200  
+U1224                     AOI221D0        tcbn90gtc       5.644800  
+U1225                     AO22D0          tcbn90gtc       5.644800  
+U1226                     ND4D1           tcbn90gtc       4.838400  
+U1227                     AOI222D0        tcbn90gtc       6.451200  
+U1228                     AOI221D0        tcbn90gtc       5.644800  
+U1229                     AO22D0          tcbn90gtc       5.644800  
+U1230                     ND4D1           tcbn90gtc       4.838400  
+U1231                     AOI222D0        tcbn90gtc       6.451200  
+U1232                     AOI221D0        tcbn90gtc       5.644800  
+U1233                     AO22D0          tcbn90gtc       5.644800  
+U1234                     ND4D1           tcbn90gtc       4.838400  
+U1235                     AOI222D0        tcbn90gtc       6.451200  
+U1236                     AOI221D0        tcbn90gtc       5.644800  
+U1237                     AO22D0          tcbn90gtc       5.644800  
+U1238                     ND4D1           tcbn90gtc       4.838400  
+U1239                     AOI222D0        tcbn90gtc       6.451200  
+U1240                     AOI221D0        tcbn90gtc       5.644800  
+U1241                     AO22D0          tcbn90gtc       5.644800  
+U1242                     ND4D1           tcbn90gtc       4.838400  
+U1243                     AOI222D0        tcbn90gtc       6.451200  
+U1244                     AOI221D0        tcbn90gtc       5.644800  
+U1245                     AO22D0          tcbn90gtc       5.644800  
+U1246                     ND4D1           tcbn90gtc       4.838400  
+U1247                     AOI222D0        tcbn90gtc       6.451200  
+U1248                     AOI221D0        tcbn90gtc       5.644800  
+U1249                     AO22D0          tcbn90gtc       5.644800  
+U1250                     ND4D1           tcbn90gtc       4.838400  
+U1251                     AOI222D0        tcbn90gtc       6.451200  
+U1252                     AOI221D0        tcbn90gtc       5.644800  
+U1253                     AO22D0          tcbn90gtc       5.644800  
+U1254                     ND4D1           tcbn90gtc       4.838400  
+U1255                     AOI222D0        tcbn90gtc       6.451200  
+U1256                     AOI221D0        tcbn90gtc       5.644800  
+U1257                     AO22D0          tcbn90gtc       5.644800  
+U1258                     ND4D1           tcbn90gtc       4.838400  
+U1259                     AOI222D0        tcbn90gtc       6.451200  
+U1260                     AOI221D0        tcbn90gtc       5.644800  
+U1261                     AO22D0          tcbn90gtc       5.644800  
+U1262                     ND4D1           tcbn90gtc       4.838400  
+U1263                     AOI222D0        tcbn90gtc       6.451200  
+U1264                     AOI221D0        tcbn90gtc       5.644800  
+U1265                     AO22D0          tcbn90gtc       5.644800  
+U1266                     ND4D1           tcbn90gtc       4.838400  
+U1267                     AOI222D0        tcbn90gtc       6.451200  
+U1268                     AOI221D0        tcbn90gtc       5.644800  
+U1269                     AO22D0          tcbn90gtc       5.644800  
+U1270                     ND4D1           tcbn90gtc       4.838400  
+U1271                     AOI222D0        tcbn90gtc       6.451200  
+U1272                     AOI221D0        tcbn90gtc       5.644800  
+U1273                     AO22D0          tcbn90gtc       5.644800  
+U1274                     ND4D1           tcbn90gtc       4.838400  
+U1275                     AOI222D0        tcbn90gtc       6.451200  
+U1276                     AOI221D0        tcbn90gtc       5.644800  
+U1277                     AO22D0          tcbn90gtc       5.644800  
+U1278                     ND4D1           tcbn90gtc       4.838400  
+U1279                     AOI222D0        tcbn90gtc       6.451200  
+U1280                     AOI221D0        tcbn90gtc       5.644800  
+U1281                     AO22D0          tcbn90gtc       5.644800  
+U1282                     ND4D1           tcbn90gtc       4.838400  
+U1283                     AOI222D0        tcbn90gtc       6.451200  
+U1284                     AOI221D0        tcbn90gtc       5.644800  
+U1285                     AO22D0          tcbn90gtc       5.644800  
+U1286                     ND4D1           tcbn90gtc       4.838400  
+U1287                     AOI222D0        tcbn90gtc       6.451200  
+U1288                     AOI221D0        tcbn90gtc       5.644800  
+U1289                     AO22D0          tcbn90gtc       5.644800  
+U1290                     ND4D1           tcbn90gtc       4.838400  
+U1291                     AOI222D0        tcbn90gtc       6.451200  
+U1292                     AOI221D0        tcbn90gtc       5.644800  
+U1293                     NR2D1           tcbn90gtc       2.419200  
+U1294                     NR2D1           tcbn90gtc       2.419200  
+U1295                     NR3D0           tcbn90gtc       4.032000  
+U1296                     AOI221D0        tcbn90gtc       5.644800  
+U1297                     OAI22D0         tcbn90gtc       4.032000  
+U1298                     AOI221D0        tcbn90gtc       5.644800  
+U1299                     OAI22D0         tcbn90gtc       4.032000  
+U1300                     AOI221D0        tcbn90gtc       5.644800  
+U1301                     OAI22D0         tcbn90gtc       4.032000  
+U1302                     AOI221D0        tcbn90gtc       5.644800  
+U1303                     OAI22D0         tcbn90gtc       4.032000  
+U1304                     AOI221D0        tcbn90gtc       5.644800  
+U1305                     OAI22D0         tcbn90gtc       4.032000  
+U1306                     AOI221D0        tcbn90gtc       5.644800  
+U1307                     OAI22D0         tcbn90gtc       4.032000  
+U1308                     AOI221D0        tcbn90gtc       5.644800  
+U1309                     OAI22D0         tcbn90gtc       4.032000  
+U1310                     AOI221D0        tcbn90gtc       5.644800  
+U1311                     OAI22D0         tcbn90gtc       4.032000  
+U1312                     AOI221D0        tcbn90gtc       5.644800  
+U1313                     OAI22D0         tcbn90gtc       4.032000  
+U1314                     AOI221D0        tcbn90gtc       5.644800  
+U1315                     OAI22D0         tcbn90gtc       4.032000  
+U1316                     AOI221D0        tcbn90gtc       5.644800  
+U1317                     OAI22D0         tcbn90gtc       4.032000  
+U1318                     AOI221D0        tcbn90gtc       5.644800  
+U1319                     OAI22D0         tcbn90gtc       4.032000  
+U1320                     AOI221D0        tcbn90gtc       5.644800  
+U1321                     OAI22D0         tcbn90gtc       4.032000  
+U1322                     AOI221D0        tcbn90gtc       5.644800  
+U1323                     OAI22D0         tcbn90gtc       4.032000  
+U1324                     AOI221D0        tcbn90gtc       5.644800  
+U1325                     OAI22D0         tcbn90gtc       4.032000  
+U1326                     AOI221D0        tcbn90gtc       5.644800  
+U1327                     OAI22D0         tcbn90gtc       4.032000  
+U1328                     AOI221D0        tcbn90gtc       5.644800  
+U1329                     OAI22D0         tcbn90gtc       4.032000  
+U1330                     AOI221D0        tcbn90gtc       5.644800  
+U1331                     OAI22D0         tcbn90gtc       4.032000  
+U1332                     AOI221D0        tcbn90gtc       5.644800  
+U1333                     OAI22D0         tcbn90gtc       4.032000  
+U1334                     AOI221D0        tcbn90gtc       5.644800  
+U1335                     OAI22D0         tcbn90gtc       4.032000  
+U1336                     AOI221D0        tcbn90gtc       5.644800  
+U1337                     OAI22D0         tcbn90gtc       4.032000  
+U1338                     AOI221D0        tcbn90gtc       5.644800  
+U1339                     OAI22D0         tcbn90gtc       4.032000  
+U1340                     AOI221D0        tcbn90gtc       5.644800  
+U1341                     OAI22D0         tcbn90gtc       4.032000  
+U1342                     AOI221D0        tcbn90gtc       5.644800  
+U1343                     OAI22D0         tcbn90gtc       4.032000  
+U1344                     AOI221D0        tcbn90gtc       5.644800  
+U1345                     OAI22D0         tcbn90gtc       4.032000  
+U1346                     AOI221D0        tcbn90gtc       5.644800  
+U1347                     OAI22D0         tcbn90gtc       4.032000  
+U1348                     AOI221D0        tcbn90gtc       5.644800  
+U1349                     OAI22D0         tcbn90gtc       4.032000  
+U1350                     AOI221D0        tcbn90gtc       5.644800  
+U1351                     OAI22D0         tcbn90gtc       4.032000  
+U1352                     AOI221D0        tcbn90gtc       5.644800  
+U1353                     OAI22D0         tcbn90gtc       4.032000  
+U1354                     AOI221D0        tcbn90gtc       5.644800  
+U1355                     OAI22D0         tcbn90gtc       4.032000  
+U1356                     AOI221D0        tcbn90gtc       5.644800  
+U1357                     OAI22D0         tcbn90gtc       4.032000  
+U1358                     AOI221D0        tcbn90gtc       5.644800  
+U1359                     OAI22D0         tcbn90gtc       4.032000  
+U1360                     AOI221D0        tcbn90gtc       5.644800  
+U1361                     OAI22D0         tcbn90gtc       4.032000  
+U1362                     AOI221D0        tcbn90gtc       5.644800  
+U1363                     OAI22D0         tcbn90gtc       4.032000  
+U1364                     AOI221D0        tcbn90gtc       5.644800  
+U1365                     OAI22D0         tcbn90gtc       4.032000  
+U1366                     AOI221D0        tcbn90gtc       5.644800  
+U1367                     OAI22D0         tcbn90gtc       4.032000  
+U1368                     AOI221D0        tcbn90gtc       5.644800  
+U1369                     OAI22D0         tcbn90gtc       4.032000  
+U1370                     AOI221D0        tcbn90gtc       5.644800  
+U1371                     OAI22D0         tcbn90gtc       4.032000  
+U1372                     AOI221D0        tcbn90gtc       5.644800  
+U1373                     OAI22D0         tcbn90gtc       4.032000  
+U1374                     AOI221D0        tcbn90gtc       5.644800  
+U1375                     OAI22D0         tcbn90gtc       4.032000  
+U1376                     AOI221D0        tcbn90gtc       5.644800  
+U1377                     OAI22D0         tcbn90gtc       4.032000  
+U1378                     AOI221D0        tcbn90gtc       5.644800  
+U1379                     OAI22D0         tcbn90gtc       4.032000  
+U1380                     AOI221D0        tcbn90gtc       5.644800  
+U1381                     OAI22D0         tcbn90gtc       4.032000  
+U1382                     AOI221D0        tcbn90gtc       5.644800  
+U1383                     OAI22D0         tcbn90gtc       4.032000  
+U1384                     AOI221D0        tcbn90gtc       5.644800  
+U1385                     OAI22D0         tcbn90gtc       4.032000  
+U1386                     AOI221D0        tcbn90gtc       5.644800  
+U1387                     OAI22D0         tcbn90gtc       4.032000  
+U1388                     AOI221D0        tcbn90gtc       5.644800  
+U1389                     OAI22D0         tcbn90gtc       4.032000  
+U1390                     AOI221D0        tcbn90gtc       5.644800  
+U1391                     OAI22D0         tcbn90gtc       4.032000  
+U1392                     AOI221D0        tcbn90gtc       5.644800  
+U1393                     OAI22D0         tcbn90gtc       4.032000  
+U1394                     AOI221D0        tcbn90gtc       5.644800  
+U1395                     OAI22D0         tcbn90gtc       4.032000  
+U1396                     AOI221D0        tcbn90gtc       5.644800  
+U1397                     OAI22D0         tcbn90gtc       4.032000  
+U1398                     AOI221D0        tcbn90gtc       5.644800  
+U1399                     OAI22D0         tcbn90gtc       4.032000  
+U1400                     AOI221D0        tcbn90gtc       5.644800  
+U1401                     OAI22D0         tcbn90gtc       4.032000  
+U1402                     AOI221D0        tcbn90gtc       5.644800  
+U1403                     OAI22D0         tcbn90gtc       4.032000  
+U1404                     AOI221D0        tcbn90gtc       5.644800  
+U1405                     OAI22D0         tcbn90gtc       4.032000  
+U1406                     AOI221D0        tcbn90gtc       5.644800  
+U1407                     OAI22D0         tcbn90gtc       4.032000  
+U1408                     AOI221D0        tcbn90gtc       5.644800  
+U1409                     OAI22D0         tcbn90gtc       4.032000  
+U1410                     AOI221D0        tcbn90gtc       5.644800  
+U1411                     OAI22D0         tcbn90gtc       4.032000  
+U1412                     AOI221D0        tcbn90gtc       5.644800  
+U1413                     OAI22D0         tcbn90gtc       4.032000  
+U1414                     AOI221D0        tcbn90gtc       5.644800  
+U1415                     OAI22D0         tcbn90gtc       4.032000  
+U1416                     AOI221D0        tcbn90gtc       5.644800  
+U1417                     OAI22D0         tcbn90gtc       4.032000  
+U1418                     AOI221D0        tcbn90gtc       5.644800  
+U1419                     OAI22D0         tcbn90gtc       4.032000  
+U1420                     AOI221D0        tcbn90gtc       5.644800  
+U1421                     OAI22D0         tcbn90gtc       4.032000  
+U1422                     AOI221D0        tcbn90gtc       5.644800  
+U1423                     OAI22D0         tcbn90gtc       4.032000  
+U1424                     AOI221D0        tcbn90gtc       5.644800  
+U1425                     OAI22D0         tcbn90gtc       4.032000  
+U1426                     AOI221D0        tcbn90gtc       5.644800  
+U1427                     OAI22D0         tcbn90gtc       4.032000  
+U1428                     AOI221D0        tcbn90gtc       5.644800  
+U1429                     OAI22D0         tcbn90gtc       4.032000  
+U1430                     AOI221D0        tcbn90gtc       5.644800  
+U1431                     OAI22D0         tcbn90gtc       4.032000  
+U1432                     AOI221D0        tcbn90gtc       5.644800  
+U1433                     OAI22D0         tcbn90gtc       4.032000  
+U1434                     AOI221D0        tcbn90gtc       5.644800  
+U1435                     OAI22D0         tcbn90gtc       4.032000  
+U1436                     AOI221D0        tcbn90gtc       5.644800  
+U1437                     OAI22D0         tcbn90gtc       4.032000  
+U1438                     AOI221D0        tcbn90gtc       5.644800  
+U1439                     OAI22D0         tcbn90gtc       4.032000  
+U1440                     AOI221D0        tcbn90gtc       5.644800  
+U1441                     OAI22D0         tcbn90gtc       4.032000  
+U1442                     AOI221D0        tcbn90gtc       5.644800  
+U1443                     OAI22D0         tcbn90gtc       4.032000  
+U1444                     AOI221D0        tcbn90gtc       5.644800  
+U1445                     OAI22D0         tcbn90gtc       4.032000  
+U1446                     AOI221D0        tcbn90gtc       5.644800  
+U1447                     OAI22D0         tcbn90gtc       4.032000  
+U1448                     AOI221D0        tcbn90gtc       5.644800  
+U1449                     OAI22D0         tcbn90gtc       4.032000  
+U1450                     AOI221D0        tcbn90gtc       5.644800  
+U1451                     OAI22D0         tcbn90gtc       4.032000  
+U1452                     AOI221D0        tcbn90gtc       5.644800  
+U1453                     OAI22D0         tcbn90gtc       4.032000  
+U1454                     AOI221D0        tcbn90gtc       5.644800  
+U1455                     OAI22D0         tcbn90gtc       4.032000  
+U1456                     NR2D1           tcbn90gtc       2.419200  
+U1457                     OAI222D0        tcbn90gtc       6.451200  
+U1458                     INVD1           tcbn90gtc       1.612800  
+U1459                     OAI222D0        tcbn90gtc       6.451200  
+U1460                     INVD1           tcbn90gtc       1.612800  
+U1461                     OAI222D0        tcbn90gtc       6.451200  
+U1462                     INVD1           tcbn90gtc       1.612800  
+U1463                     OAI222D0        tcbn90gtc       6.451200  
+U1464                     INVD1           tcbn90gtc       1.612800  
+U1465                     OAI222D0        tcbn90gtc       6.451200  
+U1466                     INVD1           tcbn90gtc       1.612800  
+U1467                     OAI222D0        tcbn90gtc       6.451200  
+U1468                     INVD1           tcbn90gtc       1.612800  
+U1469                     OAI222D0        tcbn90gtc       6.451200  
+U1470                     INVD1           tcbn90gtc       1.612800  
+U1471                     OAI222D0        tcbn90gtc       6.451200  
+U1472                     INVD1           tcbn90gtc       1.612800  
+U1473                     OAI222D0        tcbn90gtc       6.451200  
+U1474                     INVD1           tcbn90gtc       1.612800  
+U1475                     OAI222D0        tcbn90gtc       6.451200  
+U1476                     INVD1           tcbn90gtc       1.612800  
+U1477                     OAI222D0        tcbn90gtc       6.451200  
+U1478                     INVD1           tcbn90gtc       1.612800  
+U1479                     OAI222D0        tcbn90gtc       6.451200  
+U1480                     INVD1           tcbn90gtc       1.612800  
+U1481                     NR2D1           tcbn90gtc       2.419200  
+U1482                     INVD1           tcbn90gtc       1.612800  
+U1483                     OAI32D1         tcbn90gtc       5.644800  
+U1484                     AN2D0           tcbn90gtc       3.225600  
+U1485                     AN4D1           tcbn90gtc       5.644800  
+U1486                     ND2D1           tcbn90gtc       2.419200  
+U1487                     NR2D1           tcbn90gtc       2.419200  
+U1488                     ND2D1           tcbn90gtc       2.419200  
+U1489                     OAI22D0         tcbn90gtc       4.032000  
+U1490                     OAI22D0         tcbn90gtc       4.032000  
+U1491                     OAI22D0         tcbn90gtc       4.032000  
+U1492                     OAI22D0         tcbn90gtc       4.032000  
+U1493                     OAI22D0         tcbn90gtc       4.032000  
+U1494                     OAI22D0         tcbn90gtc       4.032000  
+U1495                     OAI22D0         tcbn90gtc       4.032000  
+U1496                     OAI22D0         tcbn90gtc       4.032000  
+U1497                     OAI22D0         tcbn90gtc       4.032000  
+U1498                     OAI22D0         tcbn90gtc       4.032000  
+U1499                     OAI22D0         tcbn90gtc       4.032000  
+U1500                     OAI22D0         tcbn90gtc       4.032000  
+U1501                     OAI22D0         tcbn90gtc       4.032000  
+U1502                     OAI22D0         tcbn90gtc       4.032000  
+U1503                     OAI22D0         tcbn90gtc       4.032000  
+U1504                     OAI22D0         tcbn90gtc       4.032000  
+U1505                     OAI22D0         tcbn90gtc       4.032000  
+U1506                     OAI22D0         tcbn90gtc       4.032000  
+U1507                     OAI22D0         tcbn90gtc       4.032000  
+U1508                     OAI22D0         tcbn90gtc       4.032000  
+U1509                     OAI22D0         tcbn90gtc       4.032000  
+U1510                     OAI22D0         tcbn90gtc       4.032000  
+U1511                     OAI22D0         tcbn90gtc       4.032000  
+U1512                     OAI22D0         tcbn90gtc       4.032000  
+U1513                     OAI22D0         tcbn90gtc       4.032000  
+U1514                     OAI22D0         tcbn90gtc       4.032000  
+U1515                     OAI22D0         tcbn90gtc       4.032000  
+U1516                     OAI22D0         tcbn90gtc       4.032000  
+U1517                     OAI22D0         tcbn90gtc       4.032000  
+U1518                     OAI22D0         tcbn90gtc       4.032000  
+U1519                     OAI22D0         tcbn90gtc       4.032000  
+U1520                     OAI22D0         tcbn90gtc       4.032000  
+U1521                     OAI22D0         tcbn90gtc       4.032000  
+U1522                     OAI22D0         tcbn90gtc       4.032000  
+U1523                     OAI22D0         tcbn90gtc       4.032000  
+U1524                     OAI22D0         tcbn90gtc       4.032000  
+U1525                     OAI22D0         tcbn90gtc       4.032000  
+U1526                     OAI22D0         tcbn90gtc       4.032000  
+U1527                     OAI22D0         tcbn90gtc       4.032000  
+U1528                     OAI22D0         tcbn90gtc       4.032000  
+U1529                     ND2D1           tcbn90gtc       2.419200  
+U1530                     OAI22D0         tcbn90gtc       4.032000  
+U1531                     INVD1           tcbn90gtc       1.612800  
+U1532                     OAI22D0         tcbn90gtc       4.032000  
+U1533                     INVD1           tcbn90gtc       1.612800  
+U1534                     OAI22D0         tcbn90gtc       4.032000  
+U1535                     INVD1           tcbn90gtc       1.612800  
+U1536                     ND2D1           tcbn90gtc       2.419200  
+U1537                     OAI22D0         tcbn90gtc       4.032000  
+U1538                     OAI22D0         tcbn90gtc       4.032000  
+U1539                     OAI31D1         tcbn90gtc       4.838400  
+U1540                     OAI21D0         tcbn90gtc       3.225600  
+U1541                     ND2D1           tcbn90gtc       2.419200  
+U1542                     IND4D1          tcbn90gtc       5.644800  
+U1543                     INVD1           tcbn90gtc       1.612800  
+U1544                     INVD1           tcbn90gtc       1.612800  
+U1545                     INVD1           tcbn90gtc       1.612800  
+U1546                     OAI21D0         tcbn90gtc       3.225600  
+U1547                     IOA21D1         tcbn90gtc       4.838400  
+U1548                     INVD1           tcbn90gtc       1.612800  
+U1549                     AOI21D0         tcbn90gtc       3.225600  
+U1550                     INVD1           tcbn90gtc       1.612800  
+U1551                     INVD1           tcbn90gtc       1.612800  
+U1552                     INVD1           tcbn90gtc       1.612800  
+U1553                     INVD1           tcbn90gtc       1.612800  
+U1554                     INVD1           tcbn90gtc       1.612800  
+U1555                     INVD1           tcbn90gtc       1.612800  
+U1556                     INVD1           tcbn90gtc       1.612800  
+U1557                     INVD1           tcbn90gtc       1.612800  
+U1558                     INVD1           tcbn90gtc       1.612800  
+U1559                     INVD1           tcbn90gtc       1.612800  
+U1560                     INVD1           tcbn90gtc       1.612800  
+U1561                     INVD1           tcbn90gtc       1.612800  
+U1562                     INVD1           tcbn90gtc       1.612800  
+U1563                     INVD1           tcbn90gtc       1.612800  
+U1564                     INVD1           tcbn90gtc       1.612800  
+U1565                     INVD1           tcbn90gtc       1.612800  
+U1566                     INVD1           tcbn90gtc       1.612800  
+U1567                     INVD1           tcbn90gtc       1.612800  
+U1568                     INVD1           tcbn90gtc       1.612800  
+U1569                     INVD1           tcbn90gtc       1.612800  
+U1570                     INVD1           tcbn90gtc       1.612800  
+U1571                     INVD1           tcbn90gtc       1.612800  
+U1572                     INVD1           tcbn90gtc       1.612800  
+U1573                     INVD1           tcbn90gtc       1.612800  
+U1574                     INVD1           tcbn90gtc       1.612800  
+U1575                     INVD1           tcbn90gtc       1.612800  
+U1576                     INVD1           tcbn90gtc       1.612800  
+U1577                     INVD1           tcbn90gtc       1.612800  
+U1578                     INVD1           tcbn90gtc       1.612800  
+U1579                     INVD1           tcbn90gtc       1.612800  
+U1580                     INVD1           tcbn90gtc       1.612800  
+U1581                     INVD1           tcbn90gtc       1.612800  
+U1582                     INVD1           tcbn90gtc       1.612800  
+U1583                     INVD1           tcbn90gtc       1.612800  
+U1584                     INVD1           tcbn90gtc       1.612800  
+U1585                     INVD1           tcbn90gtc       1.612800  
+U1586                     INVD1           tcbn90gtc       1.612800  
+U1587                     INVD1           tcbn90gtc       1.612800  
+U1588                     INVD1           tcbn90gtc       1.612800  
+U1589                     INVD1           tcbn90gtc       1.612800  
+U1590                     INVD1           tcbn90gtc       1.612800  
+U1591                     INVD1           tcbn90gtc       1.612800  
+U1592                     INVD1           tcbn90gtc       1.612800  
+U1593                     INVD1           tcbn90gtc       1.612800  
+U1594                     INVD1           tcbn90gtc       1.612800  
+U1595                     INVD1           tcbn90gtc       1.612800  
+U1596                     INVD1           tcbn90gtc       1.612800  
+U1597                     INVD1           tcbn90gtc       1.612800  
+U1598                     INVD1           tcbn90gtc       1.612800  
+U1599                     INVD1           tcbn90gtc       1.612800  
+U1600                     INVD1           tcbn90gtc       1.612800  
+U1601                     INVD1           tcbn90gtc       1.612800  
+U1602                     INVD1           tcbn90gtc       1.612800  
+U1603                     INVD1           tcbn90gtc       1.612800  
+U1604                     INVD1           tcbn90gtc       1.612800  
+U1605                     INVD1           tcbn90gtc       1.612800  
+U1606                     INVD1           tcbn90gtc       1.612800  
+U1607                     INVD1           tcbn90gtc       1.612800  
+U1608                     INVD1           tcbn90gtc       1.612800  
+U1609                     INVD1           tcbn90gtc       1.612800  
+U1610                     INVD1           tcbn90gtc       1.612800  
+U1611                     INVD1           tcbn90gtc       1.612800  
+U1612                     INVD1           tcbn90gtc       1.612800  
+U1613                     INVD1           tcbn90gtc       1.612800  
+U1614                     INVD1           tcbn90gtc       1.612800  
+U1615                     INVD1           tcbn90gtc       1.612800  
+U1616                     INVD1           tcbn90gtc       1.612800  
+U1617                     INVD1           tcbn90gtc       1.612800  
+U1618                     INVD1           tcbn90gtc       1.612800  
+U1619                     INVD1           tcbn90gtc       1.612800  
+U1620                     INVD1           tcbn90gtc       1.612800  
+U1621                     INVD1           tcbn90gtc       1.612800  
+U1622                     INVD1           tcbn90gtc       1.612800  
+U1623                     INVD1           tcbn90gtc       1.612800  
+U1624                     INVD1           tcbn90gtc       1.612800  
+U1625                     INVD1           tcbn90gtc       1.612800  
+U1626                     INVD1           tcbn90gtc       1.612800  
+U1627                     INVD1           tcbn90gtc       1.612800  
+U1628                     INVD1           tcbn90gtc       1.612800  
+U1629                     INVD1           tcbn90gtc       1.612800  
+U1630                     NR2D1           tcbn90gtc       2.419200  
+U1631                     NR2D1           tcbn90gtc       2.419200  
+U1632                     INR4D0          tcbn90gtc       5.644800  
+U1633                     AN2D0           tcbn90gtc       3.225600  
+U1634                     NR2D1           tcbn90gtc       2.419200  
+U1635                     AN2D0           tcbn90gtc       3.225600  
+U1636                     AN2D0           tcbn90gtc       3.225600  
+U1637                     INVD1           tcbn90gtc       1.612800  
+U1638                     INVD1           tcbn90gtc       1.612800  
+U1639                     INVD1           tcbn90gtc       1.612800  
+U1640                     INVD1           tcbn90gtc       1.612800  
+U1641                     INVD1           tcbn90gtc       1.612800  
+U1642                     INVD1           tcbn90gtc       1.612800  
+U1643                     INVD1           tcbn90gtc       1.612800  
+U1644                     INVD1           tcbn90gtc       1.612800  
+U1645                     INVD1           tcbn90gtc       1.612800  
+U1646                     INVD1           tcbn90gtc       1.612800  
+U1647                     INVD1           tcbn90gtc       1.612800  
+U1648                     INVD1           tcbn90gtc       1.612800  
+U1649                     INVD1           tcbn90gtc       1.612800  
+U1650                     INVD1           tcbn90gtc       1.612800  
+U1651                     INVD1           tcbn90gtc       1.612800  
+U1652                     INVD1           tcbn90gtc       1.612800  
+U1653                     INVD1           tcbn90gtc       1.612800  
+U1654                     INVD1           tcbn90gtc       1.612800  
+U1655                     INVD1           tcbn90gtc       1.612800  
+U1656                     INVD1           tcbn90gtc       1.612800  
+U1657                     INVD1           tcbn90gtc       1.612800  
+U1658                     INVD1           tcbn90gtc       1.612800  
+U1659                     INVD1           tcbn90gtc       1.612800  
+U1660                     INVD1           tcbn90gtc       1.612800  
+U1661                     INVD1           tcbn90gtc       1.612800  
+U1662                     INVD1           tcbn90gtc       1.612800  
+U1663                     INVD1           tcbn90gtc       1.612800  
+U1664                     INVD1           tcbn90gtc       1.612800  
+U1665                     INVD1           tcbn90gtc       1.612800  
+U1666                     INVD1           tcbn90gtc       1.612800  
+U1667                     INVD1           tcbn90gtc       1.612800  
+U1668                     INVD1           tcbn90gtc       1.612800  
+U1669                     INVD1           tcbn90gtc       1.612800  
+U1670                     INVD1           tcbn90gtc       1.612800  
+U1671                     INVD1           tcbn90gtc       1.612800  
+U1672                     INVD1           tcbn90gtc       1.612800  
+U1673                     INVD1           tcbn90gtc       1.612800  
+U1674                     INVD1           tcbn90gtc       1.612800  
+U1675                     INVD1           tcbn90gtc       1.612800  
+U1676                     INVD1           tcbn90gtc       1.612800  
+U1677                     INR2D1          tcbn90gtc       4.032000  
+U1678                     INVD1           tcbn90gtc       1.612800  
+U1679                     AN2D0           tcbn90gtc       3.225600  
+U1680                     INVD1           tcbn90gtc       1.612800  
+U1681                     INVD1           tcbn90gtc       1.612800  
+activation_memory_banks_reg[0][0][0]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][0][1]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][0][2]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][0][3]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][0][4]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][0][5]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][0][6]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][0][7]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][1][0]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][1][1]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][1][2]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][1][3]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][1][4]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][1][5]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][1][6]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][1][7]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][2][0]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][2][1]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][2][2]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][2][3]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][2][4]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][2][5]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][2][6]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][2][7]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][3][0]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][3][1]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][3][2]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][3][3]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][3][4]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][3][5]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][3][6]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][3][7]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][4][0]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][4][1]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][4][2]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][4][3]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][4][4]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][4][5]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][4][6]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[0][4][7]
+                          DFQD1           tcbn90gtc       13.708800 n
+activation_memory_banks_reg[1][0][0]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][0][1]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][0][2]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][0][3]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][0][4]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][0][5]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][0][6]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][0][7]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][1][0]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][1][1]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][1][2]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][1][3]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][1][4]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][1][5]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][1][6]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][1][7]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][2][0]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][2][1]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][2][2]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][2][3]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][2][4]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][2][5]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][2][6]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][2][7]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][3][0]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][3][1]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][3][2]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][3][3]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][3][4]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][3][5]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][3][6]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][3][7]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][4][0]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][4][1]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][4][2]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][4][3]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][4][4]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][4][5]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][4][6]
+                          EDFQD1          tcbn90gtc       18.547199 n
+activation_memory_banks_reg[1][4][7]
+                          EDFQD1          tcbn90gtc       18.547199 n
+controlled_weights_reg[0][0]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[0][1]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[0][2]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[0][3]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[0][4]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[0][5]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[0][6]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[0][7]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[1][0]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[1][1]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[1][2]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[1][3]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[1][4]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[1][5]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[1][6]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[1][7]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[2][0]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[2][1]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[2][2]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[2][3]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[2][4]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[2][5]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[2][6]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[2][7]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[3][0]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[3][1]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[3][2]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[3][3]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[3][4]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[3][5]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[3][6]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[3][7]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[4][0]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[4][1]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[4][2]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[4][3]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[4][4]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[4][5]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[4][6]
+                          DFQD1           tcbn90gtc       13.708800 n
+controlled_weights_reg[4][7]
+                          DFQD1           tcbn90gtc       13.708800 n
+current_state_reg[0]      DFCNQD1         tcbn90gtc       16.128000 n
+current_state_reg[1]      DFCND1          tcbn90gtc       17.740801 n
+data_to_neuron_reg[0][0]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[0][1]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[0][2]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[0][3]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[0][4]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[0][5]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[0][6]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[0][7]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[1][0]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[1][1]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[1][2]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[1][3]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[1][4]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[1][5]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[1][6]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[1][7]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[2][0]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[2][1]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[2][2]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[2][3]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[2][4]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[2][5]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[2][6]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[2][7]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[3][0]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[3][1]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[3][2]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[3][3]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[3][4]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[3][5]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[3][6]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[3][7]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[4][0]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[4][1]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[4][2]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[4][3]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[4][4]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[4][5]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[4][6]  DFQD1           tcbn90gtc       13.708800 n
+data_to_neuron_reg[4][7]  DFQD1           tcbn90gtc       13.708800 n
+neuron_control_reg[0]     DFQD1           tcbn90gtc       13.708800 n
+neuron_control_reg[1]     DFQD1           tcbn90gtc       13.708800 n
+neuron_control_reg[2]     DFQD1           tcbn90gtc       13.708800 n
+next_state_reg[0]         EDFQD1          tcbn90gtc       18.547199 n
+next_state_reg[1]         EDFQD1          tcbn90gtc       18.547199 n
+output_reg[0]             EDFQD1          tcbn90gtc       18.547199 n
+output_reg[1]             EDFQD1          tcbn90gtc       18.547199 n
+output_reg[2]             EDFQD1          tcbn90gtc       18.547199 n
+output_reg[3]             EDFQD1          tcbn90gtc       18.547199 n
+output_reg[4]             EDFQD1          tcbn90gtc       18.547199 n
+output_reg[5]             EDFQD1          tcbn90gtc       18.547199 n
+output_reg[6]             EDFQD1          tcbn90gtc       18.547199 n
+output_reg[7]             EDFQD1          tcbn90gtc       18.547199 n
+weight_memory_reg[0][0][0][0]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][0][1]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][0][2]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][0][3]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][0][4]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][0][5]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][0][6]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][0][7]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][1][0]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][1][1]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][1][2]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][1][3]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][1][4]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][1][5]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][1][6]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][1][7]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][2][0]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][2][1]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][2][2]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][2][3]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][2][4]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][2][5]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][2][6]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][2][7]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][3][0]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][3][1]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][3][2]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][3][3]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][3][4]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][3][5]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][3][6]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][3][7]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][4][0]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][4][1]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][4][2]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][4][3]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][4][4]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][4][5]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][4][6]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][0][4][7]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][0][0]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][0][1]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][0][2]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][0][3]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][0][4]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][0][5]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][0][6]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][0][7]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][1][0]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][1][1]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][1][2]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][1][3]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][1][4]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][1][5]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][1][6]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][1][7]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][2][0]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][2][1]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][2][2]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][2][3]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][2][4]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][2][5]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][2][6]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][2][7]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][3][0]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][3][1]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][3][2]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][3][3]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][3][4]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][3][5]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][3][6]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][3][7]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][4][0]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][4][1]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][4][2]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][4][3]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][4][4]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][4][5]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][4][6]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][1][4][7]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[0][2][0][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][0][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][0][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][0][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][0][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][0][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][0][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][0][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][1][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][1][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][1][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][1][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][1][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][1][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][1][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][1][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][2][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][2][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][2][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][2][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][2][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][2][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][2][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][2][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][3][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][3][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][3][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][3][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][3][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][3][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][3][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][3][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][4][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][4][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][4][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][4][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][4][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][4][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][4][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][2][4][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][0][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][0][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][0][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][0][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][0][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][0][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][0][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][0][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][1][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][1][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][1][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][1][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][1][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][1][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][1][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][1][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][2][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][2][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][2][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][2][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][2][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][2][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][2][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][2][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][3][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][3][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][3][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][3][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][3][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][3][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][3][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][3][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][4][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][4][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][4][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][4][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][4][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][4][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][4][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][3][4][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][0][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][0][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][0][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][0][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][0][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][0][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][0][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][0][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][1][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][1][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][1][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][1][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][1][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][1][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][1][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][1][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][2][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][2][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][2][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][2][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][2][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][2][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][2][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][2][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][3][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][3][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][3][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][3][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][3][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][3][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][3][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][3][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][4][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][4][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][4][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][4][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][4][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][4][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][4][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[0][4][4][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][0][0][0]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][0][1]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][0][2]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][0][3]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][0][4]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][0][5]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][0][6]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][0][7]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][1][0]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][1][1]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][1][2]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][1][3]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][1][4]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][1][5]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][1][6]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][1][7]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][2][0]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][2][1]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][2][2]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][2][3]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][2][4]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][2][5]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][2][6]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][2][7]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][3][0]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][3][1]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][3][2]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][3][3]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][3][4]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][3][5]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][3][6]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][3][7]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][4][0]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][4][1]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][4][2]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][4][3]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][4][4]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][4][5]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][4][6]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][0][4][7]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[1][1][0][0]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][0][1]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][0][2]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][0][3]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][0][4]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][0][5]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][0][6]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][0][7]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][1][0]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][1][1]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][1][2]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][1][3]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][1][4]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][1][5]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][1][6]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][1][7]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][2][0]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][2][1]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][2][2]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][2][3]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][2][4]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][2][5]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][2][6]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][2][7]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][3][0]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][3][1]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][3][2]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][3][3]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][3][4]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][3][5]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][3][6]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][3][7]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][4][0]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][4][1]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][4][2]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][4][3]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][4][4]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][4][5]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][4][6]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][1][4][7]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[1][2][0][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][0][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][0][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][0][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][0][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][0][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][0][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][0][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][1][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][1][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][1][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][1][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][1][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][1][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][1][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][1][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][2][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][2][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][2][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][2][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][2][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][2][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][2][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][2][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][3][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][3][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][3][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][3][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][3][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][3][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][3][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][3][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][4][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][4][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][4][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][4][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][4][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][4][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][4][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][2][4][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][0][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][0][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][0][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][0][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][0][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][0][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][0][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][0][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][1][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][1][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][1][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][1][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][1][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][1][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][1][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][1][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][2][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][2][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][2][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][2][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][2][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][2][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][2][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][2][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][3][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][3][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][3][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][3][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][3][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][3][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][3][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][3][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][4][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][4][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][4][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][4][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][4][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][4][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][4][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][3][4][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][0][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][0][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][0][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][0][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][0][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][0][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][0][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][0][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][1][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][1][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][1][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][1][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][1][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][1][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][1][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][1][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][2][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][2][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][2][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][2][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][2][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][2][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][2][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][2][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][3][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][3][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][3][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][3][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][3][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][3][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][3][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][3][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][4][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][4][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][4][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][4][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][4][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][4][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][4][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[1][4][4][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][0][0][0]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][0][1]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][0][2]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][0][3]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][0][4]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][0][5]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][0][6]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][0][7]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][1][0]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][1][1]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][1][2]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][1][3]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][1][4]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][1][5]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][1][6]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][1][7]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][2][0]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][2][1]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][2][2]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][2][3]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][2][4]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][2][5]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][2][6]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][2][7]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][3][0]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][3][1]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][3][2]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][3][3]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][3][4]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][3][5]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][3][6]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][3][7]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][4][0]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][4][1]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][4][2]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][4][3]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][4][4]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][4][5]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][4][6]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][0][4][7]
+                          DFCNQD1         tcbn90gtc       16.128000 n
+weight_memory_reg[2][1][0][0]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][0][1]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][0][2]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][0][3]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][0][4]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][0][5]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][0][6]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][0][7]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][1][0]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][1][1]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][1][2]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][1][3]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][1][4]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][1][5]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][1][6]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][1][7]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][2][0]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][2][1]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][2][2]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][2][3]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][2][4]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][2][5]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][2][6]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][2][7]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][3][0]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][3][1]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][3][2]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][3][3]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][3][4]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][3][5]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][3][6]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][3][7]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][4][0]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][4][1]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][4][2]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][4][3]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][4][4]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][4][5]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][4][6]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][1][4][7]
+                          EDFCND1         tcbn90gtc       22.579201 n
+weight_memory_reg[2][2][0][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][0][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][0][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][0][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][0][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][0][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][0][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][0][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][1][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][1][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][1][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][1][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][1][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][1][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][1][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][1][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][2][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][2][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][2][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][2][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][2][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][2][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][2][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][2][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][3][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][3][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][3][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][3][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][3][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][3][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][3][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][3][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][4][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][4][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][4][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][4][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][4][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][4][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][4][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][2][4][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][0][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][0][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][0][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][0][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][0][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][0][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][0][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][0][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][1][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][1][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][1][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][1][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][1][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][1][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][1][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][1][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][2][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][2][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][2][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][2][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][2][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][2][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][2][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][2][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][3][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][3][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][3][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][3][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][3][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][3][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][3][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][3][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][4][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][4][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][4][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][4][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][4][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][4][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][4][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][3][4][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][0][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][0][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][0][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][0][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][0][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][0][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][0][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][0][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][1][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][1][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][1][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][1][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][1][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][1][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][1][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][1][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][2][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][2][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][2][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][2][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][2][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][2][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][2][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][2][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][3][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][3][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][3][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][3][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][3][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][3][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][3][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][3][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][4][0]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][4][1]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][4][2]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][4][3]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][4][4]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][4][5]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][4][6]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+weight_memory_reg[2][4][4][7]
+                          EDFCNQD1        tcbn90gtc       21.772800 n
+--------------------------------------------------------------------------------
+Total 1674 cells                                          25893.504396
+1

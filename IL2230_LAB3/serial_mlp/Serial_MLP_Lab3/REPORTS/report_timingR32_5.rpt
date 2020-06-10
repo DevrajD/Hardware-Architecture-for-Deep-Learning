@@ -1,0 +1,171 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'serial_mlp1' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : serial_mlp1
+Version: J-2014.09
+Date   : Mon Dec 23 11:10:51 2019
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: NCCOM   Library: tcbn90gtc
+Wire Load Model Mode: top
+
+  Startpoint: data_to_neuron_reg[4][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: activation_memory_banks_reg[1][0][2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  serial_mlp1        TSMC64K_Lowk_Conservative
+                                           tcbn90gtc
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  data_to_neuron_reg[4][7]/CP (DFQD1)                     0.00 #     0.00 r
+  data_to_neuron_reg[4][7]/Q (DFQD1)                      0.13       0.13 f
+  NEURON/inputs[4][7] (parallel_neuron_5_32)              0.00       0.13 f
+  NEURON/mult_66_G5/b[7] (parallel_neuron_5_32_DW_mult_uns_14)
+                                                          0.00       0.13 f
+  NEURON/mult_66_G5/U3014/ZN (NR2D1)                      0.10       0.24 r
+  NEURON/mult_66_G5/U4243/ZN (OAI21D0)                    0.05       0.28 f
+  NEURON/mult_66_G5/U3234/ZN (AOI21D0)                    0.09       0.38 r
+  NEURON/mult_66_G5/U3233/ZN (OAI21D1)                    0.05       0.43 f
+  NEURON/mult_66_G5/U2908/ZN (INVD1)                      0.08       0.51 r
+  NEURON/mult_66_G5/U3205/ZN (OAI21D0)                    0.04       0.56 f
+  NEURON/mult_66_G5/U2902/Z (BUFFD1)                      0.07       0.62 f
+  NEURON/mult_66_G5/U2984/ZN (AOI21D1)                    0.05       0.67 r
+  NEURON/mult_66_G5/U3093/ZN (XNR2D2)                     0.12       0.79 f
+  NEURON/mult_66_G5/U4177/ZN (OAI21D0)                    0.09       0.89 r
+  NEURON/mult_66_G5/U1587/Z (XOR2D1)                      0.09       0.98 f
+  NEURON/mult_66_G5/U1045/COX (CMPE42D1)                  0.13       1.11 f
+  NEURON/mult_66_G5/U1039/CO (CMPE42D1)                   0.21       1.32 f
+  NEURON/mult_66_G5/U1033/S (CMPE42D1)                    0.22       1.54 r
+  NEURON/mult_66_G5/U2895/Z (OR2D1)                       0.08       1.62 r
+  NEURON/mult_66_G5/U2967/Z (AN2D1)                       0.07       1.68 r
+  NEURON/mult_66_G5/U2968/ZN (NR2D2)                      0.02       1.70 f
+  NEURON/mult_66_G5/U3033/ZN (OAI21D1)                    0.09       1.79 r
+  NEURON/mult_66_G5/U3132/ZN (AOI21D0)                    0.05       1.84 f
+  NEURON/mult_66_G5/U3131/ZN (OAI21D1)                    0.06       1.90 r
+  NEURON/mult_66_G5/U2892/ZN (INVD2)                      0.07       1.97 f
+  NEURON/mult_66_G5/U4507/ZN (OAI21D0)                    0.09       2.06 r
+  NEURON/mult_66_G5/U2997/ZN (XNR2D1)                     0.10       2.16 f
+  NEURON/mult_66_G5/product[36] (parallel_neuron_5_32_DW_mult_uns_14)
+                                                          0.00       2.16 f
+  NEURON/add_2_root_add_0_root_add_70_G4/A[36] (parallel_neuron_5_32_DW01_add_9)
+                                                          0.00       2.16 f
+  NEURON/add_2_root_add_0_root_add_70_G4/U822/ZN (NR2D1)
+                                                          0.10       2.26 r
+  NEURON/add_2_root_add_0_root_add_70_G4/U708/ZN (INVD1)
+                                                          0.04       2.30 f
+  NEURON/add_2_root_add_0_root_add_70_G4/U693/ZN (ND2D1)
+                                                          0.04       2.35 r
+  NEURON/add_2_root_add_0_root_add_70_G4/U749/ZN (INVD0)
+                                                          0.03       2.37 f
+  NEURON/add_2_root_add_0_root_add_70_G4/U706/ZN (ND2D1)
+                                                          0.03       2.40 r
+  NEURON/add_2_root_add_0_root_add_70_G4/U705/ZN (ND2D1)
+                                                          0.05       2.45 f
+  NEURON/add_2_root_add_0_root_add_70_G4/U773/ZN (AOI21D1)
+                                                          0.07       2.51 r
+  NEURON/add_2_root_add_0_root_add_70_G4/U674/ZN (OAI21D2)
+                                                          0.06       2.57 f
+  NEURON/add_2_root_add_0_root_add_70_G4/U673/ZN (INVD4)
+                                                          0.05       2.63 r
+  NEURON/add_2_root_add_0_root_add_70_G4/U718/ZN (OAI21D0)
+                                                          0.05       2.67 f
+  NEURON/add_2_root_add_0_root_add_70_G4/U717/ZN (XNR2D1)
+                                                          0.10       2.77 r
+  NEURON/add_2_root_add_0_root_add_70_G4/SUM[43] (parallel_neuron_5_32_DW01_add_9)
+                                                          0.00       2.77 r
+  NEURON/add_1_root_add_0_root_add_70_G4/B[43] (parallel_neuron_5_32_DW01_add_10)
+                                                          0.00       2.77 r
+  NEURON/add_1_root_add_0_root_add_70_G4/U696/ZN (NR2D1)
+                                                          0.04       2.80 f
+  NEURON/add_1_root_add_0_root_add_70_G4/U991/ZN (NR2D1)
+                                                          0.08       2.88 r
+  NEURON/add_1_root_add_0_root_add_70_G4/U912/ZN (ND2D1)
+                                                          0.05       2.93 f
+  NEURON/add_1_root_add_0_root_add_70_G4/U911/ZN (NR2D1)
+                                                          0.05       2.98 r
+  NEURON/add_1_root_add_0_root_add_70_G4/U746/ZN (ND2D1)
+                                                          0.03       3.01 f
+  NEURON/add_1_root_add_0_root_add_70_G4/U680/Z (AN2D2)
+                                                          0.05       3.06 f
+  NEURON/add_1_root_add_0_root_add_70_G4/U778/ZN (OAI21D2)
+                                                          0.07       3.13 r
+  NEURON/add_1_root_add_0_root_add_70_G4/U735/ZN (INVD4)
+                                                          0.04       3.17 f
+  NEURON/add_1_root_add_0_root_add_70_G4/U670/ZN (OAI21D0)
+                                                          0.08       3.25 r
+  NEURON/add_1_root_add_0_root_add_70_G4/U845/ZN (XNR2D2)
+                                                          0.10       3.35 r
+  NEURON/add_1_root_add_0_root_add_70_G4/SUM[54] (parallel_neuron_5_32_DW01_add_10)
+                                                          0.00       3.35 r
+  NEURON/add_0_root_add_0_root_add_70_G4/B[54] (parallel_neuron_5_32_DW01_add_11)
+                                                          0.00       3.35 r
+  NEURON/add_0_root_add_0_root_add_70_G4/U965/ZN (NR2D1)
+                                                          0.02       3.36 f
+  NEURON/add_0_root_add_0_root_add_70_G4/U928/ZN (INVD1)
+                                                          0.06       3.42 r
+  NEURON/add_0_root_add_0_root_add_70_G4/U586/ZN (ND2D1)
+                                                          0.07       3.49 f
+  NEURON/add_0_root_add_0_root_add_70_G4/U645/ZN (NR2D2)
+                                                          0.07       3.55 r
+  NEURON/add_0_root_add_0_root_add_70_G4/U741/ZN (INVD1)
+                                                          0.05       3.60 f
+  NEURON/add_0_root_add_0_root_add_70_G4/U753/ZN (NR2D1)
+                                                          0.07       3.67 r
+  NEURON/add_0_root_add_0_root_add_70_G4/U642/ZN (ND2D0)
+                                                          0.04       3.71 f
+  NEURON/add_0_root_add_0_root_add_70_G4/U567/ZN (OAI21D0)
+                                                          0.09       3.80 r
+  NEURON/add_0_root_add_0_root_add_70_G4/U833/ZN (XNR2D1)
+                                                          0.09       3.89 f
+  NEURON/add_0_root_add_0_root_add_70_G4/SUM[59] (parallel_neuron_5_32_DW01_add_11)
+                                                          0.00       3.89 f
+  NEURON/U4/Z (OR4D1)                                     0.12       4.00 f
+  NEURON/U3/Z (OR4D4)                                     0.14       4.14 f
+  NEURON/U2/ZN (INVD8)                                    0.08       4.22 r
+  NEURON/U15/ZN (IND2D1)                                  0.05       4.27 f
+  NEURON/activation_ReLU/activ_in[7] (activationReLU_5_3_32)
+                                                          0.00       4.27 f
+  NEURON/activation_ReLU/U64/ZN (IND4D1)                  0.08       4.35 f
+  NEURON/activation_ReLU/U68/Z (OR4D1)                    0.12       4.47 f
+  NEURON/activation_ReLU/U69/Z (OR4D1)                    0.08       4.55 f
+  NEURON/activation_ReLU/U70/ZN (ND2D1)                   0.03       4.58 r
+  NEURON/activation_ReLU/U35/ZN (INVD1)                   0.03       4.61 f
+  NEURON/activation_ReLU/U34/Z (BUFFD0)                   0.08       4.69 f
+  NEURON/activation_ReLU/U22/CN (CKND2)                   0.05       4.74 r
+  NEURON/activation_ReLU/U9/ZN (NR2D0)                    0.03       4.76 f
+  NEURON/activation_ReLU/activ_out[2] (activationReLU_5_3_32)
+                                                          0.00       4.76 f
+  NEURON/output[2] (parallel_neuron_5_32)                 0.00       4.76 f
+  U3232/ZN (INVD1)                                        0.08       4.85 r
+  U3271/ZN (INVD1)                                        0.07       4.92 f
+  activation_memory_banks_reg[1][0][2]/D (EDFQD1)         0.00       4.92 f
+  data arrival time                                                  4.92
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             0.00       5.00
+  activation_memory_banks_reg[1][0][2]/CP (EDFQD1)        0.00       5.00 r
+  library setup time                                     -0.08       4.92
+  data required time                                                 4.92
+  --------------------------------------------------------------------------
+  data required time                                                 4.92
+  data arrival time                                                 -4.92
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

@@ -1,0 +1,124 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'serial_mlp1' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : serial_mlp1
+Version: J-2014.09
+Date   : Mon Dec 23 11:13:23 2019
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: NCCOM   Library: tcbn90gtc
+Wire Load Model Mode: top
+
+  Startpoint: controlled_weights_reg[4][1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: activation_memory_banks_reg[0][0][0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  serial_mlp1        TSMC32K_Lowk_Conservative
+                                           tcbn90gtc
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  controlled_weights_reg[4][1]/CP (DFQD1)                 0.00 #     0.00 r
+  controlled_weights_reg[4][1]/Q (DFQD1)                  0.11       0.11 r
+  NEURON/weights[4][1] (parallel_neuron_5_8)              0.00       0.11 r
+  NEURON/mult_66_G5/a[1] (parallel_neuron_5_8_DW_mult_uns_4)
+                                                          0.00       0.11 r
+  NEURON/mult_66_G5/U136/ZN (INVD1)                       0.06       0.17 f
+  NEURON/mult_66_G5/U165/ZN (NR2D0)                       0.13       0.29 r
+  NEURON/mult_66_G5/U15/S (CMPE22D1)                      0.10       0.39 r
+  NEURON/mult_66_G5/product[1] (parallel_neuron_5_8_DW_mult_uns_4)
+                                                          0.00       0.39 r
+  NEURON/add_2_root_add_0_root_add_70_G4/A[1] (parallel_neuron_5_8_DW01_add_3)
+                                                          0.00       0.39 r
+  NEURON/add_2_root_add_0_root_add_70_G4/U1_1/S (CMPE32D1)
+                                                          0.12       0.52 r
+  NEURON/add_2_root_add_0_root_add_70_G4/SUM[1] (parallel_neuron_5_8_DW01_add_3)
+                                                          0.00       0.52 r
+  NEURON/add_1_root_add_0_root_add_70_G4/B[1] (parallel_neuron_5_8_DW01_add_2)
+                                                          0.00       0.52 r
+  NEURON/add_1_root_add_0_root_add_70_G4/U1_1/S (CMPE32D1)
+                                                          0.12       0.64 f
+  NEURON/add_1_root_add_0_root_add_70_G4/SUM[1] (parallel_neuron_5_8_DW01_add_2)
+                                                          0.00       0.64 f
+  NEURON/add_0_root_add_0_root_add_70_G4/B[1] (parallel_neuron_5_8_DW01_add_0)
+                                                          0.00       0.64 f
+  NEURON/add_0_root_add_0_root_add_70_G4/U7/ZN (OAI211D0)
+                                                          0.07       0.71 r
+  NEURON/add_0_root_add_0_root_add_70_G4/U6/ZN (IOA21D0)
+                                                          0.06       0.77 f
+  NEURON/add_0_root_add_0_root_add_70_G4/U5/Z (OA21D0)
+                                                          0.08       0.86 f
+  NEURON/add_0_root_add_0_root_add_70_G4/U4/ZN (AOI21D0)
+                                                          0.11       0.97 r
+  NEURON/add_0_root_add_0_root_add_70_G4/U3/ZN (IOA21D0)
+                                                          0.08       1.05 r
+  NEURON/add_0_root_add_0_root_add_70_G4/U2/ZN (OAI21D0)
+                                                          0.06       1.11 f
+  NEURON/add_0_root_add_0_root_add_70_G4/U1_4/CO (CMPE32D1)
+                                                          0.07       1.18 f
+  NEURON/add_0_root_add_0_root_add_70_G4/U1_5/CO (CMPE32D1)
+                                                          0.06       1.24 f
+  NEURON/add_0_root_add_0_root_add_70_G4/U1_6/CO (CMPE32D1)
+                                                          0.06       1.30 f
+  NEURON/add_0_root_add_0_root_add_70_G4/U1_7/CO (CMPE32D1)
+                                                          0.06       1.36 f
+  NEURON/add_0_root_add_0_root_add_70_G4/U1_8/CO (CMPE32D1)
+                                                          0.06       1.42 f
+  NEURON/add_0_root_add_0_root_add_70_G4/U1_9/CO (CMPE32D1)
+                                                          0.06       1.49 f
+  NEURON/add_0_root_add_0_root_add_70_G4/U1_10/CO (CMPE32D1)
+                                                          0.06       1.55 f
+  NEURON/add_0_root_add_0_root_add_70_G4/U1_11/CO (CMPE32D1)
+                                                          0.06       1.61 f
+  NEURON/add_0_root_add_0_root_add_70_G4/U1_12/CO (CMPE32D1)
+                                                          0.06       1.67 f
+  NEURON/add_0_root_add_0_root_add_70_G4/U1_13/CO (CMPE32D1)
+                                                          0.06       1.73 f
+  NEURON/add_0_root_add_0_root_add_70_G4/U1_14/CO (CMPE32D1)
+                                                          0.06       1.79 f
+  NEURON/add_0_root_add_0_root_add_70_G4/U1_15/Z (XOR3D1)
+                                                          0.10       1.89 f
+  NEURON/add_0_root_add_0_root_add_70_G4/SUM[15] (parallel_neuron_5_8_DW01_add_0)
+                                                          0.00       1.89 f
+  NEURON/U10/ZN (NR4D1)                                   0.25       2.14 r
+  NEURON/U8/ZN (IND2D0)                                   0.09       2.23 f
+  NEURON/activation_ReLU/activ_in[3] (activationReLU_5_3_8)
+                                                          0.00       2.23 f
+  NEURON/activation_ReLU/U13/Z (OR4D1)                    0.10       2.33 f
+  NEURON/activation_ReLU/U11/Z (OA21D1)                   0.10       2.43 f
+  NEURON/activation_ReLU/U10/Z (AN2D0)                    0.19       2.62 f
+  NEURON/activation_ReLU/activ_out[0] (activationReLU_5_3_8)
+                                                          0.00       2.62 f
+  NEURON/output[0] (parallel_neuron_5_8)                  0.00       2.62 f
+  U4588/ZN (ND2D1)                                        0.11       2.73 r
+  U4883/ZN (OAI222D0)                                     0.09       2.82 f
+  activation_memory_banks_reg[0][0][0]/D (DFQD1)          0.00       2.82 f
+  data arrival time                                                  2.82
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             0.00       5.00
+  activation_memory_banks_reg[0][0][0]/CP (DFQD1)         0.00       5.00 r
+  library setup time                                     -0.05       4.95
+  data required time                                                 4.95
+  --------------------------------------------------------------------------
+  data required time                                                 4.95
+  data arrival time                                                 -2.82
+  --------------------------------------------------------------------------
+  slack (MET)                                                        2.13
+
+
+1
